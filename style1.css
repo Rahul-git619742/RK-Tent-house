@@ -1,0 +1,51 @@
+body{
+    background:white;
+    margin:0;
+    padding:0;
+}
+.toparea{
+    background:#B45550;
+    padding:10px 0;
+    text-align:center;
+    color:white;
+}
+.logoarea{
+     background:#F2C38B;
+    padding:50px 0;
+    text-align:center;
+    color:white;
+}
+.logoarea img{
+    width:110px;
+}
+.principal {
+    background:white;
+    padding:50px 0;
+    text-align:center;
+}
+.xyz{
+    width:100%;
+}
+.principal p{
+    text-align:justify;
+}
+.principal p:last-child{
+    text-align:right;
+}
+.box{
+    background:white;
+    width:100%;
+    margin:5px;
+    padding:15px;
+}
+.box img{
+    width:100%;
+    transition:all 2s;
+}
+.box:hover img{
+    transform:rotate(360deg);
+}
+.department{
+    background:linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('library.jpg');
+    padding:50px 0;
+}    

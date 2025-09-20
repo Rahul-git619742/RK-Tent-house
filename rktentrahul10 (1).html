@@ -1,0 +1,829 @@
+<html>
+	<head>
+		<title>rk</title>
+		<style type="text/css">
+			body{
+				}
+				#mainarea{
+					width:1500px;
+					height:1000px;
+					background:white;
+					}
+				#toparea{
+					width:1500px;
+					height:50px;
+					background:#D5B455;
+					}
+				#toparea table b{
+						position:relative;
+						bottom:7px;
+						}
+				#toparea table tr td{
+						padding:10px;
+						padding-left:40px;
+						padding-top:14px;
+						
+						letter-spacing:1px;
+					}
+				
+					#toparea table tr td p{
+					text-decoration:none;
+					color:#D5B455;
+					position:relative;
+					left:580px;
+					bottom:5px;
+					border:solid 2px #D5B455;
+					background:#800000;
+					padding:5px;
+					
+					font-weight:bold;
+					letter-spacing:2px;
+					word-spacing:2px;
+					}
+					#toparea table tr td p:hover{
+					color:#800000;
+					background:#D5B455;
+					}
+					#toparea table tr td h4{
+						position:relative;
+						left:820px;
+					}
+				/*#noarea{
+					width:160px;
+					height:30px;
+					float:left;
+					background:yellow;
+					padding:10px 25px;
+					
+					}
+				#noarea p{
+					margin:5px;
+					align:center;
+					text-size:5px;
+					letter-spacing:3px;
+					}*/
+				#logoall{
+					width:1500px;
+					height:130px;
+					background:#220E19;
+					}
+					#logoall table{
+						float:left;
+						margin-top:10px;
+						margin-left:40px;
+						color:#D5B44A;
+					}
+					#logoall ul li{
+				list-style:none;
+				margin:10px;
+				padding:15px;	
+			}
+			#logoall ul li{
+				float:left;
+			}
+			#logoall ul li a:link,#logoall ul li a:visited{
+				text-decoration:none;
+				color:#D5B44A;
+				background:#220E19;
+				padding:10px 25px;
+				display:block;
+				border-right:solid 1px black;
+				font-weight:bold;
+				border-radius:10px;
+				font-size:13px;
+			}
+			#logoall ul li a:hover{
+				color:#80423C;
+				background:#D5B455;
+			}
+			#logoall ul li ul{
+					display:none;
+					}
+					#logoall ul li:hover ul{
+					display:block;
+					position:absolute;
+					z-index:10;
+					}
+					#logoall ul li:hover ul li{
+					float:none;
+					}
+					#logoall ul li:hover ul li a:link,#logoall ul li:hover ul li a:visited{
+						border:none;
+						border-bottom:solid 1px black;
+					}
+				#slidearea{
+					width:1500px;
+					height:500px;
+					background:blue;
+					}
+				#introarea{
+					width:1500px;
+					height:500px;
+					
+					}
+				#welarea{
+					width:500px;
+					height:100px;
+					background:transparent;
+					margin:0 50px 10px 550px;
+					
+					}
+				#welarea p{
+					font-weight:bold;
+					font-size:30px;
+					font-family:times;
+					font-style:italic;
+					padding:40px;
+					text-align:center;
+					color:#DBA817;
+					text-shadow:5px 0 3px black;
+					letter-spacing:2px;
+					}
+					#box1{
+						background:orange;
+						width:400px;
+						height:300px;
+						float:right;
+						margin-right:600px;
+						
+						border-radius:50px;
+						}
+					#box2{
+						background:transparent;
+						width:850px;
+						height:250px;
+						margin-left:40px;
+						}
+					#box2 h2{
+						
+						position:relative;
+						bottom:300px;
+						padding:20px;
+						text-shadow:2px 0 8px yellow;
+						letter-spacing:4px;
+						word-spacing:4px;
+						}
+				
+				#segarea{
+					width:1500px;
+					height:650px;
+					background:white;
+					
+					padding:40px;
+					}
+					#seg1area{
+						width:500px;
+						height:50px;
+						background:white;
+						margin:0 50px 10px 550px;
+						}
+					#seg1area p{
+						font-weight:bold;
+						font-size:30px;
+						font-family:times;
+						font-style:italic ;
+						padding:40px;
+						text-align:center;
+						color:#DBA817;
+						text-shadow:6px 2px 5px #C8AC3B;
+						letter-spacing:4px;
+						}
+					#seg2area{
+						width:1380px;
+						height:400px;
+						background:white url('flower.jpg') no-repeat center fixed;
+						margin-top:50px;
+						padding:40px;
+						}
+						#xob1{
+							width:350px;
+							height:300px;
+							background:#A40419;
+							border:solid 1px transparent;
+							float:left;
+							margin-top:40px;
+							margin-left:35px;
+							opacity:0.8;
+							}
+						#xob1:hover{
+							opacity:1;
+							}
+							#xob1 table{
+								margin-left:25px;
+								}
+							#xob1 table p{
+								text-decoration:underline;
+								margin-top:20px;
+								margin-left:50px;
+								padding-left:10px;
+								
+								}
+							#xob1:hover{
+								border-radius:20%;
+								}
+						#xob2{
+							width:350px;
+							height:300px;
+							background:#CB4807;
+							opacity:0.8;
+							border:solid 1px transparent;
+							float:right;
+							margin:40px;
+							margin-right:75px;
+							
+							}
+						#xob2:hover{
+							opacity:1;
+							border-radius:20%;
+							}
+						#xob2 table{
+								margin-left:25px;
+								margin-top:20px;
+								}
+						#xob3{
+							width:350px;
+							height:300px;
+							background:#0F6A8F;
+							opacity:0.8;
+							border:solid 1px transparent;
+							float:right;
+							margin:45px;
+							
+							}
+							#xob3:hover{
+							opacity:1;
+							border-radius:20%;
+							}
+							#xob3 table{
+								margin-left:25px;
+								}
+							#xob3 table p{
+								text-decoration:underline;
+								margin-top:20px;
+								margin-left:50px;
+								padding-left:10px;
+								
+								}
+					#wedarea{
+						width:1500px;
+						height:100px;
+						background:white;
+						
+					}
+					#wedarea p{
+						font-weight:bold;
+						font-size:30px;
+						font-family:times;
+						font-style:italic ;
+						margin-bottom:35px;
+						text-align:center;
+						color:#DBA817;
+						text-shadow:2px 0 5px brown;
+						letter-spacing:4px;
+						}
+					#photoarea{
+						width:1500px;
+						height:370px;
+						background:black;
+						}
+						#pbox{
+						width:450px;
+						height:250px;
+						background:transparent;
+						position:relative;
+						top:50px;
+						left:50px;
+						float:left;
+						}
+						#pbox1{
+						width:450px;
+						height:250px;
+						background:transparent;
+						position:relative;
+						top:50px;
+						right:50px;
+						float:right;
+						}
+						#pbox2{
+						width:450px;
+						height:250px;
+						background:transparent;
+						position:relative;
+						top:50px;
+						left:70px;
+						float:left;
+						}
+						
+					#mparea{
+						width:1500px;
+						height:650px;
+						background:white;
+						}
+					#mparea1{
+						width:250px;
+						height:250px;
+						border:solid 1px black;
+						border-radius:50%;
+						box-shadow:8px 8px 8px #a18600;
+						overflow:hidden;
+						position:relative;
+						top:50px;
+						left:330px;
+						}
+					#mparea1:hover{
+							box-shadow:8px 8px 7px brown;
+						}
+					#mparea2{
+						width:250px;
+						height:250px;
+						border:solid 1px black;
+						border-radius:50%;
+						box-shadow:8px 8px 8px #ffbf00;
+						overflow:hidden;
+						position:relative;
+						top:100px;
+						left:330px;
+						
+						}
+					#mparea2:hover{
+							box-shadow:8px 8px 7px brown;
+						}
+					#mparea3{
+						width:300px;
+						height:430px;
+						border:solid 3px #D5B455;
+						text-align:center;
+						font-style:italic;
+						overflow:hidden;
+						position:relative;
+						bottom:390px;
+						left:660px;
+						background:#F1A8A1;
+						text-shadow:2px 0 5px brown;
+						}
+					#mparea3:hover{
+							box-shadow:8px 8px 7px brown;
+						}
+					#mparea3 p{
+						font-style:italic;
+						font-size:20px;
+						text-shadow:2px 0 5px brown;
+						}
+					#mparea4{
+						width:250px;
+						height:250px;
+						border:solid 1px #D5B455;
+						position:relative;
+						left:25px;
+						}
+					#mparea4:hover{
+							box-shadow:8px 8px 7px brown;
+						}
+					#mparea4 table{
+						position:relative;
+						left:73px;
+						top:20px;
+						border-radius:40%;
+						border:solid 1px transparent;
+						background:brown;
+						text-shadow:2px 0 5px brown;
+						
+						}
+					#mparea4 table{
+						padding:5px 5px 2px 5px;
+						color:white;
+						}
+					#mparea5{
+						width:250px;
+						height:250px;
+						border:solid 1px black;
+						border-radius:50%;
+						box-shadow:8px 8px 8px #ffbf00;
+						overflow:hidden;
+						position:relative;
+						bottom:890px;
+						left:1030px;
+						}
+					#mparea5:hover{
+							box-shadow:8px 8px 7px brown;
+						}
+					#mparea6{
+						width:250px;
+						height:250px;
+						border:solid 1px black;
+						border-radius:50%;
+						box-shadow:8px 8px 8px #a18600;
+						overflow:hidden;
+						position:relative;
+						bottom:840px;
+						left:1030px;
+						}
+					#mparea6:hover{
+							box-shadow:8px 8px 7px brown;
+						}
+					#mparea4 table:hover{
+						background:#EAD9AA;
+						color:black;
+						}
+					#venuearea{
+						background:#ECECEC;
+						width:1500px;
+						height:900px;
+						}
+					#venuearea p{
+						position:relative;
+						top:50px;
+						left:750px;
+						font-weight:bold;
+						font-size:30px;
+						text-shadow:2px 0 5px brown;
+						font-family:times;
+						letter-spacing:4px;
+						}
+					#venuearea table ul li{
+						float:left;
+						color:white;
+						background:brown;
+						padding:10px 25px;
+						display:block;
+						border-right:solid 1px transparent;
+						font-weight:bold;
+						border-radius:10px;
+						font-size:20px;
+						position:relative;
+						right:200px;
+						top:40px;
+						margin-right:20px;
+						}
+					#venuearea table ul li:hover{
+						color:black;
+						background:#EAD9AA;
+						}
+					#venuearea table ul li:hover{
+							box-shadow:7px 7px 7px brown;
+						}
+					#pbox3{
+						width:450px;
+						height:500px;
+						background:white;
+						position:relative;
+						top:100px;
+						left:50px;
+						float:left;
+						/*overflow:hidden;*/
+						}
+					#pbox3:hover{
+							box-shadow:7px 7px 7px brown;
+						}
+					#pbox3 b{
+						letter-spacing:2px;
+						position:relative;
+						
+						left:60px;
+						text-shadow:2px 0 5px brown;
+						}
+					#pbox3 table{
+						background:brown;
+						top:15px;
+						position:relative;
+						left:160px;
+						color:white;
+						padding-left:10px;
+						padding-right:10px;
+						}
+					/*#pbox3 img:hover{
+						transform:scale(1.2,1.2);
+						
+						}*/
+						#pbox3 table:hover{
+						color:brown;
+						background:#EAD9AA;
+						border-radius:30%;
+						text-shadow:3px 3px 5px red;
+						}
+						#pbox4{
+						width:450px;
+						height:500px;
+						background:white;
+						position:relative;
+						top:100px;
+						right:50px;
+						float:right;
+						}
+						#pbox4:hover{
+							box-shadow:7px 7px 7px brown;
+						}
+						#pbox4 b{
+						letter-spacing:2px;
+						position:relative;
+						
+						left:40px;
+						text-shadow:2px 0 5px brown;
+						}
+						#pbox4 table{
+						background:brown;
+						top:15px;
+						position:relative;
+						left:150px;
+						color:white;
+						padding-left:10px;
+						padding-right:10px;
+						}
+						#pbox4 table:hover{
+						color:brown;
+						background:#EAD9AA;
+						border-radius:30%;
+						text-shadow:3px 3px 5px red;
+						}
+						#pbox5{
+						width:450px;
+						height:500px;
+						background:white;
+						position:relative;
+						top:100px;
+						left:75px;
+						float:left;
+						}
+						#pbox5:hover{
+							box-shadow:7px 7px 7px brown;
+						}
+						#pbox5 b{
+						letter-spacing:2px;
+						position:relative;
+						
+						left:20px;
+						text-shadow:2px 0 5px brown;
+						}
+						#pbox5 table{
+						background:brown;
+						top:15px;
+						position:relative;
+						left:140px;
+						color:white;
+						padding-left:10px;
+						padding-right:10px;
+						}
+						#pbox5 table:hover{
+						color:brown;
+						background:#EAD9AA;
+						border-radius:30%;
+						text-shadow:3px 3px 5px red;
+						}
+						#venue1area{
+						background:#ECECEC;
+						width:1500px;
+						height:900px;
+						}
+						#venue1area p{
+						position:relative;
+						top:50px;
+						left:500px;
+						font-weight:bold;
+						font-size:30px;
+						text-shadow:2px 0 5px brown;
+						font-family:times;
+						letter-spacing:4px;
+						
+						}
+						#venue1area table{
+						background:#D5B455;
+						top:120px;
+						position:relative;
+						left:200px;
+						color:white;
+						padding-left:10px;
+						padding-right:10px;
+						}
+						#venue1area p{
+						padding:5px 100px 5px 100px;
+						}
+						#venue1area ul li{
+						position:relative;
+						}
+						#venue1area h2{
+							position:relative;
+							text-align:center;
+						}	
+						#venue1area hr{
+							position:relative;
+							
+							bottom:50px;
+						}
+						#venue1area li:hover{
+							color:black;
+						}
+						#venue1area li{
+							position:relative;
+							bottom:40px;
+							text-shadow:2px 0 5px brown;
+						}
+						#venue2area{
+						background:transparent;
+						width:600px;
+						height:500px;
+						position:relative;
+						bottom:420px;
+						left:800px;
+						}
+						#venue2area img:hover{
+						box-shadow:7px 7px 7px brown;
+						}
+						#specialarea{
+						background:#ECECEC;
+						width:1500px;
+						height:150px;
+						}
+						#specialarea p{
+						position:relative;
+						top:50px;
+						left:550px;
+						font-weight:bold;
+						font-size:30px;
+						text-shadow:2px 0 5px brown;
+						font-family:times;
+						letter-spacing:4px;
+						}
+						#special1area{
+						background:black url('https://www.giftalove.com/blog/wp-content/uploads/20-Best-Winter-Wedding-Venues-Across-India.jpg') no-repeat center fixed;
+						opacity:0.8;
+						width:1500px;
+						height:900px;
+						position:relative;
+						background-size:cover;
+						}
+						
+		</style>	
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="toparea">
+				<table>
+					<tr><td><b>0980980989</b></td>
+						
+							<td><p><font="white>BOOK NOW</font></p></td>
+							<td><h4> eshakumarijsr2@gmail.com</h4></td>
+							
+						
+					
+					</tr>
+				</table>
+			</div>
+			<div id="logoall">
+				<table>
+					<tr><td><img src="logo.jpg" width="60%" height="60%"/></td>
+					
+					<td><p><font color="#D5B44A" size="3px" face="arial"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R.K.Tent House</p><p>Make Your Events Special!!!</p></b></font></td>
+					<td>
+					<ul>
+						<li><a href="rktentrahul10 (1).html">HOME</a></li>
+						<li><a href="about2.html">ABOUT</a></li>
+						<li><a href="services.html">SERVICES</a></li>
+						<li><a href="#">PLANNING</a></li>
+						<li><a href="#">GALLERY</a>
+							<ul>
+								<li><a href="#">MY WORKS</a></li>
+								<li><a href="#">MEHANDI</a></li>
+								<li><a href="#">HALDI</a></li>
+								<li><a href="#">STAGE</a></li>
+								<li><a href="#">PASSAGE</a></li>
+								<li><a href="#">BIRTHDAYS</a></li>
+							</ul>
+							
+						</li>
+						<li><a href="#">CONTACTS</a></li>
+					</ul></td>
+					</tr>
+				</table>
+			</div>
+			<div id="slidearea"><img src="slideshow2.webp" width="100%" height="100%"/>
+			</div>
+				<hr width="1300px"color="red"/>
+			<div id="introarea">
+				<div id="welarea"><p>Welcome to R.K. Tent House!!</p>
+					<div id="box1"><img src="tent.jpg" width="100%" height="100%"/>
+					</div>
+					<div id="box2"><h2>"R.K. Tent House" is a wedding designing and event planning company, set up almost three decades ago with an extensive in - house production facility, from idea to reality, from fabric to upholstery and from flowers to lighting.</h2>
+					<h2>“R.K Tent House is committed to excellence and offers you the world-class decoration, Tents, and Catering Management 					Services for your wedding ceremony, religious, parties, events, etc."</h2>
+					</div>
+				</div>
+			</div>
+			<hr width="1200px" color="red"/>
+			<div id="segarea">
+				<div id="seg1area"><p>OUR SEGMENTS</p>
+						
+				</div>
+				<div id="seg2area">
+					<div id="xob1">
+						<table>
+							<tr><td><font size="5px" color="black" face="verdana"><p><h4>WEDDING DECOR & 										TENTING</h4></p></font><hr width="280px" color="red"/></td></tr>
+							
+							<tr><td><font size="4px" color="#D5B44A" face="arial"><h4>We specialize in "Wedding Decor Design". We at RTH believe in the beauty of our client's dreams and our work is a leap of imagination which brings happiness and joy to them. Every bit of wedding design is the cumulative effect of a large infrastructure.</h4></font>
+
+</td></tr>
+						</table>
+					</div>
+					<div id="xob2">
+							<table>
+							<tr><td><font size="5px" color="black" face="verdana"><p><h4> 											CORPORATE EVENTS</h4></p></font><hr width="280px" color="red"/></td></tr>
+							<tr><td></td></tr>
+							<tr><td><font size="4px" color="#D5B44A" face="arial"><h4>RTH specializes in organizing customized Corporate Events, Award Functions, Musical Nights, Exhibitions & Stall Designing on pan India basis.</h4></font></td></tr>
+							</table>
+					</div>
+					<div id="xob3">
+							<table>
+							<tr><td><font size="5px" color="black" face="verdana"><p><h4>DESTINATION 									WEDDINGS</h4></p></font><hr width="280px" color="red"/></td></tr>
+							<tr><td></td></tr>
+							<tr><td><font size="4px" color="#D5B44A" face="arial"><h4>We specialize in "Wedding Decor Design". We at RTH believe in the beauty of our client's dreams and our work is a leap of imagination which brings happiness and joy to them. Every bit of wedding design is the cumulative effect of a large infrastructure.</h4></font></td></tr>
+							</table>
+					</div>
+				</div>
+			</div>
+			<hr width="1300px" color="red"/>
+			<div id="wedarea"><p>WEDDING DECOR AND TENTING</p>
+			</div>
+			<div id="photoarea">
+				<div id="pbox"><img src="https://www.rktent.in/photos/bg3.webp"width="100%" height="100%"/>
+				</div>
+				<div id="pbox1"><img src="https://www.rktent.in/photos/bg4.webp"width="100%" height="100%"/>
+				</div>
+				<div id="pbox2"><img src="https://www.rktent.in/photos/bg5.webp"width="100%" height="100%"/>
+				</div>
+			</div>
+			<div id="mparea">
+				<div id="mparea1"><img src="https://www.rktent.in/photos/bg6.webp"width="100%" height="100%"/>
+				</div>
+			
+				<div id="mparea2"><img src="https://www.rktent.in/photos/bg7.webp"width="100%" height="100%"/>
+				</div>
+				<div id="mparea3"><h2>PLAN A MARRIAGE</h2>
+						<b><p>With Us</p></b>
+						<div id="mparea4"><img src="https://www.rktent.in/photos/bg8.webp"width="100%" height="100%"/>
+							<table>
+								<tr><td>BOOK  NOW</td></tr>
+							</table>
+						</div>
+						
+				</div>
+				<div id="mparea5">
+					<img src="https://www.rktent.in/photos/bg9.webp" width="100%" height="100%"/>		
+				</div>
+				<div id="mparea6"><img src="https://www.rktent.in/photos/bg10.webp" width="100%" height="100%"/>
+				</div>
+			</div>
+			<div id="venuearea"><p><font color="black" face="italic">VENUES</font>
+				<table>
+					<tr><td>
+					<ul>
+						<li>locals</li>
+						<li>national</li>
+						<li>international</li>
+					</ul>
+					</tr></td>
+				</table></p>
+				<div id="pbox3"><img src="https://www.rktent.in/photos/bg11.webp" width="100%" height="70%"/>
+						<b><font size="20px" face="italic">TELCO CLUB</b></font>
+						<table>
+							<tr><td><font size="6px">know more</font></td></tr>
+						</table>
+				</div>
+				<div id="pbox4"><img src="https://www.rktent.in/photos/bg12.webp" width="100%" height="70%"/>
+						<b><font size="20px" face="italic">AGRICO CLUB</b></font>
+						<table>
+							<tr><td><font size="6px">know more</font></td></tr>
+						</table>
+				</div>
+				<div id="pbox5"><img src="https://www.rktent.in/photos/bg13.webp" width="100%" height="70%"/>
+						<b><font size="20px" face="italic">BISTUPUR CLUB</b></font>
+						<table>
+							<tr><td><font size="6px">know more</font></td></tr>
+						</table>
+				</div>
+			</div>
+			<div id="venue1area"><p><font color="black" face="italic">CORPORATE EVENTS</font></p>
+				<table width="500px" >
+					<tr><td><font size="5px" color="white" face="verdana"><p><h2>WE OFFER</h2></p></font><hr width="250px" color="red"/>
+				<ul type="square">
+					<li><h3> Events / Exhibition Hangers</h3></li>
+					<li><h3> Customized Exhibition Stall</h3> </li>
+					<li><h3>Wooden Platform / Wooden Stage</h3> </li>
+					<li><h3>Designer Country Pavilion</h3></li>
+					<li><h3> Scaffolding</h3></li>
+					 <li><h3>Events / Exhibition Theme Area</h3></li>
+					 <li><h3>Events Exhibition Gates</h3></li>
+					 <li><h3>Temporary Kiosks</h3></li>
+					 <li><h3>Lighting</h3></li>
+					 <li><h3>Maxima Section Stall</h3></li>
+				</ul></td></tr>
+				</table>
+			
+				<div id="venue2area">
+					<img src="https://www.rktent.in/photos/corporate1.webp" width="100%" height="100%"/>
+				</div>
+			</div>
+			<div id="specialarea"><p><font color="black" face="italic">OUR SPECIALITY</font></p>	
+			</div>
+			<div id="special1area">
+			</div>
+		</div>
+	</body>
+</html>
